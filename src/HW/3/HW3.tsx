@@ -22,9 +22,9 @@ export const HW3 = () => {
   };
 
   const handleSave = () => {
-    if (!currentText.trim()) return;                        // игнорируем пустые строки
-    setTexts([...texts, currentText]);                      // сохраняем введённый текст в массив texts
-    setCurrentText('');                                     // очищаем поле ввода
+    if (!currentText.trim()) return;
+    setTexts([...texts, currentText]);
+    setCurrentText('');
     // ЗАСЕТАТЬ БЫ ТЕКСТ В texts И НЕ ПОТЕРЯТЬ НАПУТСТВИЕ ИЗ ПРОШЛОГО ВЕКА)
     // А ЗАТЕМ УБРАТЬ ЗА СОБОЙ В currentText
   };
